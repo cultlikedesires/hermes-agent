@@ -4,6 +4,22 @@ Instructions for AI coding assistants and developers working on the hermes-agent
 
 **Never give up on the right solution.**
 
+## Coding Discipline (Karpathy Principles)
+
+Behavioral guardrails that apply to every task in this repo. Full text in
+[`CLAUDE.md`](CLAUDE.md); the headlines:
+
+1. **Think before coding.** State assumptions, surface tradeoffs, present
+   multiple interpretations instead of silently picking one. If something is
+   unclear, stop and ask.
+2. **Simplicity first.** Minimum code that solves the problem — no speculative
+   abstractions, configurability, or error handling for impossible cases.
+3. **Surgical changes.** Touch only what the task requires. Match existing
+   style, don't refactor what isn't broken, only clean up orphans your own
+   changes created.
+4. **Goal-driven execution.** Turn vague tasks into verifiable success criteria
+   (write the failing test first, then make it pass) and loop until verified.
+
 ## Development Environment
 
 ```bash
